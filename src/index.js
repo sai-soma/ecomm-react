@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Fruitshtml from './Fruitshtml';
+import './App.css'
+import Fruits from './App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Fruitshtml />
+    <> <div><h1 id='titlee'>Fruits</h1></div>
+    <hr></hr>
+    <div id="products" class="main"><Fruits /></div>
+    </>
   </React.StrictMode>
 );
 
