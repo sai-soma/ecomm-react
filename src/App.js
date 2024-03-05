@@ -3,7 +3,7 @@ import React from 'react'
 export default function Fruits() {
    let fruits= [
     {
-        name:"Apple",description: "This is dummy text",price:3,
+        name:"PineApple",description: "This is dummy text",price:3,
         image: "https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg",
     },
     {
